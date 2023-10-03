@@ -1,0 +1,114 @@
+*{
+     scroll-behavior: smooth;
+}
+body{
+     background-image: url(img/ronaldo3.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     margin-top: 0px;
+     height: 1000px;
+}
+
+header{
+
+     height: 100px;
+    padding: 40px;
+    position: sticky;
+    top: 0px;
+    
+}
+.ronaldo{
+     color: white;
+     display: inline;
+     font-size: x-large;
+     font-family: cursive;
+     font-weight: bolder;
+     margin-top: 20px;
+}
+.navbar{
+     color: white;
+     display: inline;
+     margin-left: 70px;
+     text-decoration: none;
+     font-size: x-large;
+     font-family: cursive;
+     font-weight: bolder;
+     padding: 60px;
+     
+}
+.navbar > a{
+     color: white;
+     text-decoration: none;
+     margin: 50px;
+     
+}
+#contact{
+     margin-left: 65px;
+}
+
+.navbar :hover{
+     background-color: white;
+     color: black;
+     transition: 0.5s;
+}
+
+section{
+      
+       margin-left: 100px;
+}
+
+section >.heading{
+font-family: math;
+font-weight: bolder;
+width: 200px;
+position: relative;
+display: contents;
+}
+#h1{
+    
+     font-size: 70px;
+     color: crimson;
+}
+#h2{
+     font-size: 40px;
+     top: 0px;
+     color: aliceblue;
+}
+
+p{
+     width: 650px;
+     height: 150px;
+     color: bisque;
+     font-size: 20px ;
+     font-weight: bolder;
+}
+
+#btn{
+     color: rgb(171, 11, 72);
+     background-color: rgb(3, 4, 4);
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 150px;
+    border: none;
+    padding: 20px;
+    font-size: medium;
+    
+
+}
+
+#btn:hover{
+     background-color: rgb(226, 237, 238);
+     /* color: rgb(167, 102, 102); */
+     color: black;
+     font-weight: bolder;
+     transition: 0.5s;
+}
+
+footer{
+     color: rgb(8, 50, 241);
+     position: fixed;
+     bottom: 0;
+     
+}
+
